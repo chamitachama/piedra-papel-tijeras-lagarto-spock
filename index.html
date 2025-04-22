@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PPTSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+      <div id="game-title"> <h1> Juga contra l'ordinador </h1></div>
+      <div id="yqc">Tria una opció, l'ordinador en triarà una altra a l’atzar</div>
+      <div class="reglas">
+        🪨 guanya a ✂️ i 🦎
+        <br>
+        🧻 guanya a 🪨 i 🖖
+        <br>
+        ✂️ guanya a 🧻 i 🦎
+        <br>
+        🦎 guanya a 🧻 i 🖖
+        <br>
+        🖖 guanya a ✂️ i 🪨
+      </div>
+      <div id="choices">
+        <button class="choice-button" id="pedra"> 🪨 Pedra  <kbd>Q</kbd> </button>
+        <button class="choice-button" id="paper"> 🧻 Paper  <kbd>W</kbd> </button>
+          <button class="choice-button" id="tisores"> ✂️ Tisores  <kbd>E</kbd> </button>
+          <button class="choice-button" id="sargantana"> 🦎 Sargantana  <kbd>R</kbd> </button>
+          <button class="choice-button" id="spock"> 🖖 Spock  <kbd>T</kbd></button>
+        </div>
+        <div id="selection">
+          <p id ="user-choice">Your choice</p>
+          <span>VS</span>
+          <p id ="pc-choice">Bot's choice</p>
+        </div>
+          <div><h1 id="result">Result</h1></div>
+      </div>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
+  
